@@ -1,13 +1,16 @@
 import styles from '../Header/styles.module.css'
+import logoImg from '../../assets/logo.png'
 
 export function Header() {
   return (
-    <nav>
-      <div>
-        <img src="" alt="" />
+    <nav className={styles.navbar}>
+      <div className={styles.navbar_img}>
+        <a href="">
+          <img src={logoImg} alt="" />
+        </a>
       </div>
 
-      <ul>
+      <ul className={styles.navlinks}>
         <li>
           <a href="">Home</a>
         </li>
@@ -33,9 +36,9 @@ export function Header() {
         </li>
       </ul>
 
-      <div>
-        <a href="">Entrar</a>
-        <a href="">Registrar</a>
+      <div className={styles.signin}>
+        <button className={styles.signin_button}>Entrar</button>
+        <button className={styles.register}>Registrar</button>
       </div>
     </nav>
 

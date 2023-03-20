@@ -1,0 +1,22 @@
+:root {
+  --orange: #ff4d30;
+  --black: #010103;
+  --white: #fff;
+  --gray-200: #e9e9e9;
+  --gray-400: #706f7b;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f8f8;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font: 400 1rem Poppins, sans-serif;
+}
