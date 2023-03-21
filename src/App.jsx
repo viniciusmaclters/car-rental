@@ -3,6 +3,7 @@ import { MainContent } from "./components/MainContent";
 
 import '../styles/themes/default.css' 
 import { BookCar } from "./components/BookCar";
+import { Details } from "./components/Details";
 
 export function App() {
 
@@ -11,6 +12,7 @@ export function App() {
       <Header />
       <MainContent />
       <BookCar />
+      <Details />
     </div>
   )
 }
