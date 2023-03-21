@@ -34,10 +34,11 @@
 
 .signin {
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
-.signin button {
+.signin a {
   border: none;
   background: transparent;
   color: var(--black);
@@ -70,8 +71,6 @@
   background: #fa4226; 
   box-shadow: 0 10px 15px 0 rgba(255,83,48,.5);
 }
-
-
 
 ul li a {
   color: var(--black);

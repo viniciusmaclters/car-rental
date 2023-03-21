@@ -5,7 +5,7 @@ export function Header() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbar_img}>
-        <a href="">
+        <a href="/">
           <img src={logoImg} alt="" />
         </a>
       </div>
@@ -37,12 +37,9 @@ export function Header() {
       </ul>
 
       <div className={styles.signin}>
-        <button className={styles.signin_button}>Entrar</button>
-        <button className={styles.register}>Registrar</button>
+        <a className={styles.signin_button}>Entrar</a>
+        <a className={styles.register}>Registrar</a>
       </div>
     </nav>
-
-
-
   )
 }
