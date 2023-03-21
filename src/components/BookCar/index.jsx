@@ -93,7 +93,7 @@ export function BookCar() {
             <input type="date" name="" id="" />
           </div>
 
-          <button>Procurar</button>
+          <button className={styles.search}>Procurar</button>
         </form>
       </div>
     </div>

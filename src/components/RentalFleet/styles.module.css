@@ -1,0 +1,127 @@
+.rental_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.container_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.rental_header {
+  text-align: center;
+  line-height: 2;
+}
+
+.rental_header p {
+  color: var(--gray-400);
+  font-size: 0.85rem;
+}
+
+.rental_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.model_buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_colored {
+  padding: 1rem 2rem;
+  margin-top: 0.8rem;
+  text-align: start;
+  border: none;
+  background: var(--orange);
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  margin-top: 0.8rem;
+  text-align: start;
+  border: none;
+  background: var(--gray-200);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: 300ms;
+  background: var(--orange);
+  color: var(--white);
+}
+
+.car_img {
+  position: relative;
+  width: 40rem;
+}
+
+.car_img img {
+  width: 100%;
+}
+
+.description {
+  width: 15rem;
+ }
+
+.description_price {
+  text-align: center;
+  background: var(--orange);
+  padding: 0.3rem 1.8rem;
+  font-size: 1.2rem;
+}
+
+.description_price span {
+  color: var(--white);
+}
+
+.description_table {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.description_table_col,
+.description_table_col span:first-child {
+  border-right: 2px solid var(--gray-400);
+}
+
+.description_table_col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  border-bottom: 2px solid var(--gray-400);
+  border-left: 2px solid var(--gray-400);
+  padding: 0.9rem 0.5rem;
+  text-align: center;
+}
+
+.reserve_btn {
+  padding: 1rem 2rem;
+  margin-top: 0.8rem;
+  text-align: start;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  background: var(--orange);
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 10px 15px rgba(255,83,48,.35);
+}
+
+.reserve_btn:hover {
+  transition: 300ms;
+  box-shadow: 0 10px 15px rgba(255,83,48,.55);
+}
+
+
+
+
+

@@ -51,13 +51,14 @@
 .box_style select, input {
   border: 1px solid var(--gray-200);
   color: var(--gray-400);
+  cursor: pointer;
 }
 
 .box_style select, input {
   padding: 0.5rem 1rem;
 }
 
-button {
+.search {
   border: none;
   background: var(--orange);
   color: var(--white);
@@ -67,7 +68,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.search:hover {
   transition: 300ms;
   box-shadow: 0 10px 15px rgba(255,83,48,.55);
 }
