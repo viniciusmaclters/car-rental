@@ -36,7 +36,6 @@
 
 button {
   margin-top: 1.5rem;
-
 }
 
 .check_button {
@@ -52,7 +51,7 @@ button {
 }
 
 .check_button:hover {
-  transition: 250ms;
+  transition: 300ms;
   background: #fa4226; 
   box-shadow: 0 10px 15px 0 rgba(255,83,48,.5);
 }
@@ -65,13 +64,15 @@ button {
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
+  box-shadow: none;
 }
 
 .arrow_button:hover {
   background: transparent;
   border: 2px solid var(--black);
   color: var(--black);
-  transition: 200ms;
+  transition: 300ms;
+  box-shadow: none;
 }
 
 .main_car {
