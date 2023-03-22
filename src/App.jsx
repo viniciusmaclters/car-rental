@@ -5,6 +5,7 @@ import '../styles/themes/default.css'
 import { BookCar } from "./components/BookCar";
 import { Details } from "./components/Details";
 import { RentalFleet } from "./components/RentalFleet";
+import { CrossLine } from "./components/CrossLine";
 
 export function App() {
 
@@ -15,6 +16,7 @@ export function App() {
       <BookCar />
       <Details />
       <RentalFleet />
+      <CrossLine />
     </div>
   )
 }
