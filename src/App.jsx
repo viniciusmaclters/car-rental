@@ -6,6 +6,7 @@ import { BookCar } from "./components/BookCar";
 import { Details } from "./components/Details";
 import { RentalFleet } from "./components/RentalFleet";
 import { CrossLine } from "./components/CrossLine";
+import { Testimonial } from "./components/Testimonial";
 
 export function App() {
 
@@ -17,6 +18,7 @@ export function App() {
       <Details />
       <RentalFleet />
       <CrossLine />
+      <Testimonial />
     </div>
   )
 }
