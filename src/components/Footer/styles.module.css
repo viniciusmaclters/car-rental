@@ -1,0 +1,122 @@
+.footer_container {
+  background: var(--white);
+  padding: 5rem 8rem;
+}
+
+.footer_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8rem;
+}
+
+.footer_about ul li,
+.footer_company ul li,
+.footer_hours ul li {
+  list-style: none;
+}
+
+.footer_about ul li:first-child {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.footer_about ul li:nth-child(2) {
+  color: var(--gray-400);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.footer_about ul li:nth-child(3) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer_about ul li:nth-child(3):hover {
+  color: var(--orange);
+  transition: 300ms;
+}
+
+.footer_about ul li a:hover {
+  color: var(--orange);
+  transition: 300ms;
+}
+
+.footer_about ul li:nth-child(4) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer_about ul li:nth-child(4):hover {
+  color: var(--orange);
+  transition: 300ms;
+}
+
+
+.footer_company ul li:first-child {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.footer_company ul li a {
+  font-weight: 400;
+  line-height: 2.2;
+}
+
+.footer_company ul li a:hover {
+  color: var(--orange);
+  transition: 300ms;
+}
+
+.footer_hours ul li:first-child {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.footer_hours ul li {
+  line-height: 2;
+}
+
+.footer_subscription {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_subscription span {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.footer_subscription p {
+  margin-top: .5rem;
+  margin-bottom: 0.8rem;
+}
+
+.footer_subscription input {
+  background: var(--gray-200);
+}
+
+.footer_subscription input::placeholder {
+  text-align: center;
+}
+
+.footer_subscription button {
+  background: var(--orange);
+  border: none;
+  color: var(--white);
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(255,83,48,.35);
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+}
+
+.footer_subscription button:hover {
+  box-shadow: 0 10px 15px rgba(255,83,48,.55);
+  transition: 300ms;
+}
