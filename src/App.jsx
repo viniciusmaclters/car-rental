@@ -7,6 +7,7 @@ import { Details } from "./components/Details";
 import { RentalFleet } from "./components/RentalFleet";
 import { CrossLine } from "./components/CrossLine";
 import { Testimonial } from "./components/Testimonial";
+import { Questions } from "./components/Questions";
 
 export function App() {
 
@@ -19,6 +20,7 @@ export function App() {
       <RentalFleet />
       <CrossLine />
       <Testimonial />
+      <Questions />
     </div>
   )
 }
