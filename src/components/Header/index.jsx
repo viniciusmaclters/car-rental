@@ -1,5 +1,6 @@
 import styles from '../Header/styles.module.css'
 import logoImg from '../../assets/logo.png'
+import { Link, Outlet } from 'react-router-dom'
 
 export function Header() {
   return (
@@ -12,27 +13,27 @@ export function Header() {
 
       <ul className={styles.navlinks}>
         <li>
-          <a href="">Home</a>
+          <Link to="/">Home</Link>
         </li>
 
         <li>
-          <a href="">Sobre</a>
+          <Link to="about">Sobre</Link>
         </li>
 
         <li>
-          <a href="">Modelos</a>
+          <Link to="models">Modelos</Link>
         </li>
 
         <li>
-          <a href="">Depoimentos</a>
+          <Link to="depositions">Depoimentos</Link>
         </li>
 
         <li>
-          <a href="">Nosso Time</a>
+          <Link to="team">Nosso Time</Link>
         </li>
 
         <li>
-          <a href="">Contato</a>
+          <Link to="contact">Contato</Link>
         </li>
       </ul>
 
@@ -40,6 +41,7 @@ export function Header() {
         <a className={styles.signin_button}>Entrar</a>
         <a className={styles.register}>Registrar</a>
       </div>
+      <Outlet />
     </nav>
   )
 }
